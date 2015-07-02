@@ -7,7 +7,7 @@ ZLAHQRV finds the roots of complex polynomials by calculating eigenvalues of the
 3. Run 'make &lt;target&gt;'  (see Makefile for details)
 4. Run './zlahqr' in zlahqrv folder
 
-Further Compiler flags can be added
+Further preprocessor options can be added
 * -DOPENMP: parallel execution on CPU (OpenMP)
 * -DOPENACC: parallel execution on Nvidia GPU (OpenACC)
 * -DCUDA: parallel execution on Nvidia GPU (CUDA)
